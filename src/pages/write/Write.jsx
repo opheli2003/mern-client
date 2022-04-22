@@ -17,7 +17,7 @@ const Create = () => {
 		};
 		try {
 			await axios.post("https://mern-gladys.herokuapp.com/api/ticket/", newTicket);
-			window.location.replace("https://mern-gladys.herokuapp.com/api/ticket/all-tickets/");
+			window.location.replace("https://singular-halva-b0df6d.netlify.app/")
 		} catch (error) {
 			console.log(error.response.data);
 		}
