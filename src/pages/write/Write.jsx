@@ -16,7 +16,7 @@ const Create = () => {
 			comment,
 		};
 		try {
-			await axios.post("https://mern-gladys.herokuapp.com//api/ticket/", newTicket);
+			await axios.post("https://mern-gladys.herokuapp.com/api/ticket/", newTicket);
 			window.location.replace("https://mern-gladys.herokuapp.com/");
 		} catch (error) {
 			console.log(error.response.data);
