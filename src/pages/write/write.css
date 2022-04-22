@@ -1,44 +1,44 @@
-img{
-    width:100%;
-    height:200px;
+img {
+    width: 100%;
+    height: 200px;
 }
 
-.write{
+.write {
     padding-top: 50px;
 }
 
-.writeForm{
-    position: relative;    
+.writeForm {
+    position: relative;
 }
 
-.writeFormGroup{
+.writeFormGroup {
     margin-left: 150px;
 
-}
+} 
 
-.writeInput{
+.writeInput {
     font-size: 30px;
     border: none;
     padding: 20px;
     width: 70vw;
-    /* =70% de la la largeur du viewport(fen de navig)*/    
+    /* =70% de la la largeur du viewport(fen de navig)*/
 }
 
-.writeInput:focus{
+.writeInput:focus {
     outline: none;
     /* outline = quatre contours d'un élément lors de sa prise de focus */
 }
 
-.writeComment{
-    font-size:20px ;
+.writeComment {
+    font-size: 20px;
     height: 100vh;
     /* pr enlever la barre de scroll */
 }
 
-.writeSubmit{
+.writeSubmit {
     position: absolute;
-    top:145px;
-    right:60px;
+    top: 145px;
+    right: 60px;
     color: white;
     background-color: teal;
     padding: 10px;
@@ -48,3 +48,8 @@ img{
     font-size: 16px;
 }
 
+@media screen and (max-width: 725px) {
+    .writeFormGroup {
+        margin-left: 0%;
+    }
+}
