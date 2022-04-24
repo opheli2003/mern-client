@@ -18,7 +18,7 @@ const Create = () => {
 		try {
 
 			await axios.post("https://mern-gladys.herokuapp.com/api/ticket/", newTicket);
-			window.location.replace("/")
+			window.location.replace("https://mern-gladys.herokuapp.com/api/ticket/all-tickets");
 		} catch (error) {
 			console.log(error.response.data);
 		}
