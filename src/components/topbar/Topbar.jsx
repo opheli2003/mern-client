@@ -19,7 +19,7 @@ const Topbar = () => {
 						to="/write"
 						style={{ textDecoration: "none", color: "#2b2b2b" }}
 					>
-						{" "}
+						{/* {" "} */}
 						Write
 					</Link>
 				</div>

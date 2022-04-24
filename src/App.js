@@ -10,7 +10,6 @@ function App() {
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<Home />} />
-				{/* <Topbar /> */}
 				<Route path="/write" element={<Write />} />
 				<Route path="/ticket/:id" element={<SingleTicket />} />
 			</Routes>

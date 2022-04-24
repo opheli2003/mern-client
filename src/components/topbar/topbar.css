@@ -11,9 +11,6 @@
     font-size: 18px;
     font-weight: 300px;
     z-index: 900;
-
-
-
 }
 
 .topLeft,
@@ -26,8 +23,6 @@
 
 .topCenter {
     flex: 3;
-
-
 }
 
 .topLeft {
