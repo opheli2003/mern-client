@@ -18,7 +18,6 @@ const Create = () => {
 		try {
 
 			await axios.post("https://mern-gladys.herokuapp.com/api/ticket/", newTicket);
-			<Redirect to= "/" />
 		} catch (error) {
 			console.log(error.response.data);
 		}
